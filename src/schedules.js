@@ -34,7 +34,7 @@ export const ScheduleFilters = ({ games }) => {
     )
 
     return allGames(...teams).filter(game =>
-      commonOpponents.some(opponent => didParticipate(game, opponent))
+      commonOpponents.some(didParticipate(game))
     )
   }
 
@@ -54,7 +54,7 @@ export const ScheduleFilters = ({ games }) => {
 
   /** @type {ScheduleFilter} */
   function allGames(...teams) {
-    return games.filter(game => teams.some(team => didParticipate(game, team)))
+    return games.filter(game => teams.some(didParticipate(game)))
   }
 
   return {

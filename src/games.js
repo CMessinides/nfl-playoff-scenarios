@@ -1,4 +1,4 @@
-import { identity, sample } from "lodash"
+import { identity, sample, curry } from "lodash"
 
 /** @enum {string} */
 export const Result = {
@@ -16,32 +16,42 @@ export const Game = game => identity(game)
 /** @type {(game: Game) => boolean} */
 export const isUndecided = game => game.result === undefined
 
-/** @type {(result: Result) => (game: Game) => Game} */
-export const decideWith = result => game => ({ ...game, result })
+export const decideWith = curry(
+  /** @type {(result: Result, game: Game) => Game} */
+  (result, game) => ({ ...game, result })
+)
 
 /** @type {(game: Game) => Game} */
-export const decideRandom = game => decide(sample(Result))(game)
+export const decideRandom = game => decideWith(sample(Result), game)
 
-/** @type {(game: Game, team: import('./teams').Team) => boolean} */
-export const didParticipate = (game, team) =>
-  game.home === team || game.away === team
+export const didParticipate = curry(
+  /** @type {(game: Game, team: import('./teams').Team) => boolean} */
+  (game, team) => game.home === team || game.away === team
+)
 
-/** @type {(game: Game, team: import('./teams').Team) => boolean} */
-export const didTie = (game, team) =>
-  didParticipate(game, team) && game.result === Result.TIE
+export const didTie = curry(
+  /** @type {(game: Game, team: import('./teams').Team) => boolean} */
+  (game, team) => didParticipate(game, team) && game.result === Result.TIE
+)
 
-/** @type {(game: Game, team: import('./teams').Team) => boolean} */
-export const didWin = (game, team) =>
-  (game.result === Result.HOME && game.home === team) ||
-  (game.result === Result.AWAY && game.away === team)
+export const didWin = curry(
+  /** @type {(game: Game, team: import('./teams').Team) => boolean} */
+  (game, team) =>
+    (game.result === Result.HOME && game.home === team) ||
+    (game.result === Result.AWAY && game.away === team)
+)
 
-/** @type {(game: Game, team: import('./teams').Team) => boolean} */
-export const didLose = (game, team) =>
-  didParticipate(game, team) && !didTie(game, team) && !didWin(game, team)
+export const didLose = curry(
+  /** @type {(game: Game, team: import('./teams').Team) => boolean} */
+  (game, team) =>
+    didParticipate(game, team) && !didTie(game, team) && !didWin(game, team)
+)
 
-/** @type {(game: Game, team: import('./teams').Team) => false|import('./teams').Team} */
-export const getOpponent = (game, team) =>
-  didParticipate(game, team) && game.home === team ? game.away : game.home
+export const getOpponent = curry(
+  /** @type {(game: Game, team: import('./teams').Team) => false|import('./teams').Team} */
+  (game, team) =>
+    didParticipate(game, team) && game.home === team ? game.away : game.home
+)
 
 /** @type {(game: Game) => Game} */
 export const HomeWin = game => ({ ...game, result: Result.HOME })
