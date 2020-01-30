@@ -25,7 +25,7 @@ export const Team = team => identity(team)
  * @prop {string} id A unique ID for the team
  * @prop {string} location
  * @prop {string} name
- * @prop {string} abbreviation The team's official abbreviation
+ * @prop {string} abbrev The team's official abbreviation
  * @prop {Conference} conference The team's NFL conference
  * @prop {Division} division The team's division within its conference
  */

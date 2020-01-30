@@ -1,0 +1,18 @@
+[
+  {
+    "start": 2016,
+    "team": "ram",
+    "data": {
+      "location": "Los Angeles",
+      "abbrev": "LA"
+    }
+  },
+  {
+    "start": 2017,
+    "team": "sdg",
+    "data": {
+      "location": "Los Angeles",
+      "abbrev": "LAC"
+    }
+  }
+]
