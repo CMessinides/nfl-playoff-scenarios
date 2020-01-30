@@ -53,23 +53,6 @@ export const getOpponent = curry(
     didParticipate(game, team) && game.home === team ? game.away : game.home
 )
 
-/** @type {(game: Game) => Game} */
-export const HomeWin = game => ({ ...game, result: Result.HOME })
-
-/** @type {(game: Game) => Game} */
-export const AwayWin = game => ({ ...game, result: Result.AWAY })
-
-/** @type {(game: Game) => Game} */
-export const Tie = game => ({ ...game, result: Result.TIE })
-
-export const Outcomes = [HomeWin, AwayWin, Tie]
-
-/** @type {(game: Game) => Game} */
-export const RandomOutcome = game => {
-  const Outcome = Outcomes[Math.floor(Math.random() * Outcomes.length)]
-  return Outcome(game)
-}
-
 /**
  * @typedef {object} Game
  * @prop {string} id

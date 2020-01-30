@@ -12,7 +12,7 @@ export const Record = ({ team, wins = 0, losses = 0, ties = 0 }) => ({
 })
 
 /** @type {(game: import('./games').Game) => (...records: Record[]) => Record[]} */
-export const updateWith = game => (...records) => {
+export const updateWith = (game, ...records) => {
   return records.map(record => {
     if (didWin(game, record.team)) {
       record.wins++
