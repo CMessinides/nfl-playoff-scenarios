@@ -4,7 +4,7 @@ import { csvParse } from "d3-dsv"
 import { keyBy, map, pipe } from "lodash/fp"
 import { Team } from "./src/teams"
 import { Schedule } from "./src/schedules"
-import { Result, decideWith } from "./src/games"
+import { Game, Result, decideWith } from "./src/games"
 
 let teams = null
 let teamPatches = null
@@ -51,19 +51,21 @@ export function loadDataset(year) {
       path.join(__dirname, "./public/data/games", `${year}.csv`)
     ).toString()
   )
-    .map(row => ({
-      ...row,
-      home: patchedTeams[row.home],
-      away: patchedTeams[row.away],
-      date: new Date(row.date)
-    }))
-    .map(row => {
-      if (row.homePts > row.awayPts) {
-        return decideWith(Result.HOME, row)
-      } else if (row.awayPts > row.homePts) {
-        return decideWith(Result.AWAY, row)
+    .map(row =>
+      Game({
+        ...row,
+        home: patchedTeams[row.home],
+        away: patchedTeams[row.away],
+        date: new Date(row.date)
+      })
+    )
+    .map(game => {
+      if (game.homePts > game.awayPts) {
+        return decideWith(Result.HOME, game)
+      } else if (game.awayPts > game.homePts) {
+        return decideWith(Result.AWAY, game)
       } else {
-        return decideWith(Result.TIE, row)
+        return decideWith(Result.TIE, game)
       }
     })
 

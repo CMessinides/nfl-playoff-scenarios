@@ -1,6 +1,6 @@
 /node_modules/
 /public/build/
 /.vscode
-
+/coverage
 .DS_Store
 *.log

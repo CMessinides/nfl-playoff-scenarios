@@ -26,6 +26,16 @@
     "not ie",
     "not dead"
   ],
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.js",
+      "!src/{worker,main}.js"
+    ],
+    "coveragePathIgnorePatterns": [
+      "/node_modules/",
+      "<rootDir>/testHelpers.js"
+    ]
+  },
   "dependencies": {
     "d3-dsv": "^1.2.0",
     "idb-keyval": "^3.2.0",
