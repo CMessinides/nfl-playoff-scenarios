@@ -11,15 +11,13 @@ export const Result = {
  * @param {Game} game
  * @returns {Game}
  */
-export const Game = game => identity(game)
+export const Game = (game = {}) => identity(game)
 
 /** @type {(game: Game) => boolean} */
 export const isUndecided = game => game.result === undefined
 
-export const decideWith = curry(
-  /** @type {(result: Result, game: Game) => Game} */
-  (result, game) => ({ ...game, result })
-)
+/** @type {(result: Result, game: Game) => Game} */
+export const decideWith = (result, game) => ({ ...game, result })
 
 /** @type {(game: Game) => Game} */
 export const decideRandom = game => decideWith(sample(Result), game)

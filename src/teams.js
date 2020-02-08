@@ -18,7 +18,7 @@ export const Division = {
  * @param {Team} team
  * @returns {Team}
  */
-export const Team = team => identity(team)
+export const Team = (team = {}) => identity(team)
 
 /**
  * @typedef {object} Team
