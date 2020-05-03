@@ -1,4 +1,4 @@
-import { didWin, didLose, didTie } from "./games"
+import { didWin, didLose } from "./games"
 
 /**
  * @param {Partial<Record>} record
@@ -8,21 +8,41 @@ export const Record = ({ team, wins = 0, losses = 0, ties = 0 }) => ({
   team,
   wins,
   losses,
-  ties
+  ties,
 })
 
-/** @type {(game: import('./games').Game) => (...records: Record[]) => Record[]} */
-export const updateWith = (game, ...records) => {
-  return records.map(record => {
-    if (didWin(game, record.team)) {
-      record.wins++
-    } else if (didLose(game, record.team)) {
-      record.losses++
-    } else if (didTie(game, record.team)) {
-      record.ties++
-    }
+/**
+ * @param {Record} record
+ * @returns {Record}
+ */
+export const addWin = (record) => ({ ...record, wins: record.wins + 1 })
 
-    return record
+/**
+ * @param {Record} record
+ * @returns {Record}
+ */
+export const addLoss = (record) => ({ ...record, losses: record.losses + 1 })
+
+/**
+ * @param {Record} record
+ * @returns {Record}
+ */
+export const addTie = (record) => ({ ...record, ties: record.ties + 1 })
+
+/**
+ * @param {import('./games').Game} game
+ * @param {Record[]} records
+ * @returns {Record[]}
+ */
+export const updateWith = (game, ...records) => {
+  return records.map((record) => {
+    if (didWin(game, record.team)) {
+      return addWin(record)
+    } else if (didLose(game, record.team)) {
+      return addLoss(record)
+    } else {
+      return addTie(record)
+    }
   })
 }
 
