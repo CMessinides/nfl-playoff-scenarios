@@ -1,10 +1,12 @@
-import { identity, sample, curry } from "lodash"
+import identity from "lodash/identity"
+import sample from "lodash/sample"
+import curry from "lodash/curry"
 
 /** @enum {string} */
 export const Result = {
   HOME: "HOME",
   AWAY: "AWAY",
-  TIE: "TIE"
+  TIE: "TIE",
 }
 
 /**
@@ -14,13 +16,30 @@ export const Result = {
 export const Game = (game = {}) => identity(game)
 
 /** @type {(game: Game) => boolean} */
-export const isUndecided = game => game.result === undefined
+export const isUndecided = (game) => game.result === undefined
 
 /** @type {(result: Result, game: Game) => Game} */
 export const decideWith = (result, game) => ({ ...game, result })
 
 /** @type {(game: Game) => Game} */
-export const decideRandom = game => decideWith(sample(Result), game)
+export const decideRandom = (game) => decideWith(sample(Result), game)
+
+/** @type {(game: Game) => Game} */
+export const simulate = (game) => {
+  const PROB_TIE = 0.002
+
+  let diceRoll = Math.random()
+
+  if (diceRoll > 1 - PROB_TIE) {
+    return decideWith(Result.TIE, game)
+  }
+
+  if (diceRoll > game.homeWinProb) {
+    return decideWith(Result.AWAY, game)
+  }
+
+  return decideWith(Result.HOME, game)
+}
 
 export const didParticipate = curry(
   /** @type {(game: Game, team: import('./teams').Team) => boolean} */
@@ -58,5 +77,6 @@ export const getOpponent = curry(
  * @prop {import('./teams').Team} away
  * @prop {Date} date
  * @prop {number} week
+ * @prop {number} homeWinProb
  * @prop {Result} [result]
  */
