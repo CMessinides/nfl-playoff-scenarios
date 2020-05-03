@@ -14,5 +14,13 @@
       "location": "Los Angeles",
       "abbrev": "LAC"
     }
+  },
+  {
+    "start": 2020,
+    "team": "rai",
+    "data": {
+      "location": "Las Vegas",
+      "abbrev": "LV"
+    }
   }
 ]
