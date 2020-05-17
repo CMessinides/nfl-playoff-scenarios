@@ -1,33 +1,33 @@
-id,location,name,abbrev,conference,division
-nwe,New England,Patriots,NE,AFC,East
-buf,Buffalo,Bills,BUF,AFC,East
-nyj,New York,Jets,NYJ,AFC,East
-mia,Miami,Dolphins,MIA,AFC,East
-rav,Baltimore,Ravens,BAL,AFC,North
-pit,Pittsburgh,Steelers,PIT,AFC,North
-cle,Cleveland,Browns,CLE,AFC,North
-cin,Cincinnati,Bengals,CIN,AFC,North
-htx,Houston,Texans,HOU,AFC,South
-oti,Tennessee,Titans,TEN,AFC,South
-clt,Indianapolis,Colts,IND,AFC,South
-jax,Jacksonville,Jaguars,JAX,AFC,South
-kan,Kansas City,Chiefs,KC,AFC,West
-rai,Oakland,Raiders,OAK,AFC,West
-den,Denver,Broncos,DEN,AFC,West
-sdg,San Diego,Chargers,SD,AFC,West
-phi,Philadelphia,Eagles,PHI,NFC,East
-dal,Dallas,Cowboys,DAL,NFC,East
-nyg,New York,Giants,NYG,NFC,East
-was,Washington,Redskins,WAS,NFC,East
-gnb,Green Bay,Packers,GB,NFC,North
-min,Minneapolis,Vikings,MIN,NFC,North
-chi,Chicago,Bears,CHI,NFC,North
-det,Detroit,Lions,DET,NFC,North
-nor,New Orleans,Saints,NO,NFC,South
-tam,Tampa Bay,Buccaneers,TB,NFC,South
-atl,Atlanta,Falcons,ATL,NFC,South
-car,Carolina,Panthers,CAR,NFC,South
-sfo,San Francisco,49ers,SF,NFC,West
-sea,Seattle,Seahawks,SEA,NFC,West
-ram,St. Louis,Rams,STL,NFC,West
-crd,Arizona,Cardinals,ARI,NFC,West
+id,location,name,abbrev,conference,division,color
+nwe,New England,Patriots,NE,AFC,East,002A5C
+buf,Buffalo,Bills,BUF,AFC,East,005496
+nyj,New York,Jets,NYJ,AFC,East,145741
+mia,Miami,Dolphins,MIA,AFC,East,038E97
+rav,Baltimore,Ravens,BAL,AFC,North,2D2D8B
+pit,Pittsburgh,Steelers,PIT,AFC,North,FEC20C
+cle,Cleveland,Browns,CLE,AFC,North,FF3D00
+cin,Cincinnati,Bengals,CIN,AFC,North,F04D23
+htx,Houston,Texans,HOU,AFC,South,00143F
+oti,Tennessee,Titans,TEN,AFC,South,002A5C
+clt,Indianapolis,Colts,IND,AFC,South,003A70
+jax,Jacksonville,Jaguars,JAX,AFC,South,016576
+kan,Kansas City,Chiefs,KC,AFC,West,E31837
+rai,Oakland,Raiders,OAK,AFC,West,000000
+den,Denver,Broncos,DEN,AFC,West,F26522
+sdg,San Diego,Chargers,SD,AFC,West,0080C6
+phi,Philadelphia,Eagles,PHI,NFC,East,004C54
+dal,Dallas,Cowboys,DAL,NFC,East,002A5C
+nyg,New York,Giants,NYG,NFC,East,003C7F
+was,Washington,Redskins,WAS,NFC,East,681D13
+gnb,Green Bay,Packers,GB,NFC,North,294339
+min,Minneapolis,Vikings,MIN,NFC,North,4F2683
+chi,Chicago,Bears,CHI,NFC,North,00143F
+det,Detroit,Lions,DET,NFC,North,0076B6
+nor,New Orleans,Saints,NO,NFC,South,9F8958
+tam,Tampa Bay,Buccaneers,TB,NFC,South,A30C2D
+atl,Atlanta,Falcons,ATL,NFC,South,C9243F
+car,Carolina,Panthers,CAR,NFC,South,0099D8
+sfo,San Francisco,49ers,SF,NFC,West,C9243F
+sea,Seattle,Seahawks,SEA,NFC,West,002A5C
+ram,St. Louis,Rams,STL,NFC,West,003594
+crd,Arizona,Cardinals,ARI,NFC,West,B1063A

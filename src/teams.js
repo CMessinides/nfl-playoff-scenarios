@@ -28,4 +28,5 @@ export const Team = (team = {}) => identity(team)
  * @prop {string} abbrev The team's official abbreviation
  * @prop {Conference} conference The team's NFL conference
  * @prop {Division} division The team's division within its conference
+ * @prop {string} color The team's primary color as a CSS hex code (without the leading #)
  */

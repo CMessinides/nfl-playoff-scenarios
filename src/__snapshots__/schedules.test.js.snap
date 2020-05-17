@@ -5,6 +5,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "ARI",
+      "color": "B1063A",
       "conference": "NFC",
       "division": "West",
       "id": "crd",
@@ -15,6 +16,7 @@ Array [
     "date": 2002-09-08T04:00:00.000Z,
     "home": Object {
       "abbrev": "WAS",
+      "color": "681D13",
       "conference": "NFC",
       "division": "East",
       "id": "was",
@@ -30,6 +32,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "ARI",
+      "color": "B1063A",
       "conference": "NFC",
       "division": "West",
       "id": "crd",
@@ -40,6 +43,7 @@ Array [
     "date": 2002-09-15T04:00:00.000Z,
     "home": Object {
       "abbrev": "SEA",
+      "color": "002A5C",
       "conference": "NFC",
       "division": "West",
       "id": "sea",
@@ -55,6 +59,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "SD",
+      "color": "0080C6",
       "conference": "AFC",
       "division": "West",
       "id": "sdg",
@@ -65,6 +70,7 @@ Array [
     "date": 2002-09-22T04:00:00.000Z,
     "home": Object {
       "abbrev": "ARI",
+      "color": "B1063A",
       "conference": "NFC",
       "division": "West",
       "id": "crd",
@@ -80,6 +86,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "NYG",
+      "color": "003C7F",
       "conference": "NFC",
       "division": "East",
       "id": "nyg",
@@ -90,6 +97,7 @@ Array [
     "date": 2002-09-29T04:00:00.000Z,
     "home": Object {
       "abbrev": "ARI",
+      "color": "B1063A",
       "conference": "NFC",
       "division": "West",
       "id": "crd",
@@ -105,6 +113,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "ARI",
+      "color": "B1063A",
       "conference": "NFC",
       "division": "West",
       "id": "crd",
@@ -115,6 +124,7 @@ Array [
     "date": 2002-10-06T04:00:00.000Z,
     "home": Object {
       "abbrev": "CAR",
+      "color": "0099D8",
       "conference": "NFC",
       "division": "South",
       "id": "car",
@@ -130,6 +140,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "DAL",
+      "color": "002A5C",
       "conference": "NFC",
       "division": "East",
       "id": "dal",
@@ -140,6 +151,7 @@ Array [
     "date": 2002-10-20T04:00:00.000Z,
     "home": Object {
       "abbrev": "ARI",
+      "color": "B1063A",
       "conference": "NFC",
       "division": "West",
       "id": "crd",
@@ -155,6 +167,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "ARI",
+      "color": "B1063A",
       "conference": "NFC",
       "division": "West",
       "id": "crd",
@@ -165,6 +178,7 @@ Array [
     "date": 2002-10-27T04:00:00.000Z,
     "home": Object {
       "abbrev": "SF",
+      "color": "C9243F",
       "conference": "NFC",
       "division": "West",
       "id": "sfo",
@@ -180,6 +194,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "STL",
+      "color": "003594",
       "conference": "NFC",
       "division": "West",
       "id": "ram",
@@ -190,6 +205,7 @@ Array [
     "date": 2002-11-03T05:00:00.000Z,
     "home": Object {
       "abbrev": "ARI",
+      "color": "B1063A",
       "conference": "NFC",
       "division": "West",
       "id": "crd",
@@ -205,6 +221,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "SEA",
+      "color": "002A5C",
       "conference": "NFC",
       "division": "West",
       "id": "sea",
@@ -215,6 +232,7 @@ Array [
     "date": 2002-11-10T05:00:00.000Z,
     "home": Object {
       "abbrev": "ARI",
+      "color": "B1063A",
       "conference": "NFC",
       "division": "West",
       "id": "crd",
@@ -230,6 +248,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "ARI",
+      "color": "B1063A",
       "conference": "NFC",
       "division": "West",
       "id": "crd",
@@ -240,6 +259,7 @@ Array [
     "date": 2002-11-17T05:00:00.000Z,
     "home": Object {
       "abbrev": "PHI",
+      "color": "004C54",
       "conference": "NFC",
       "division": "East",
       "id": "phi",
@@ -255,6 +275,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "OAK",
+      "color": "000000",
       "conference": "AFC",
       "division": "West",
       "id": "rai",
@@ -265,6 +286,7 @@ Array [
     "date": 2002-11-24T05:00:00.000Z,
     "home": Object {
       "abbrev": "ARI",
+      "color": "B1063A",
       "conference": "NFC",
       "division": "West",
       "id": "crd",
@@ -280,6 +302,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "ARI",
+      "color": "B1063A",
       "conference": "NFC",
       "division": "West",
       "id": "crd",
@@ -290,6 +313,7 @@ Array [
     "date": 2002-12-01T05:00:00.000Z,
     "home": Object {
       "abbrev": "KC",
+      "color": "E31837",
       "conference": "AFC",
       "division": "West",
       "id": "kan",
@@ -305,6 +329,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "DET",
+      "color": "0076B6",
       "conference": "NFC",
       "division": "North",
       "id": "det",
@@ -315,6 +340,7 @@ Array [
     "date": 2002-12-08T05:00:00.000Z,
     "home": Object {
       "abbrev": "ARI",
+      "color": "B1063A",
       "conference": "NFC",
       "division": "West",
       "id": "crd",
@@ -330,6 +356,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "ARI",
+      "color": "B1063A",
       "conference": "NFC",
       "division": "West",
       "id": "crd",
@@ -340,6 +367,7 @@ Array [
     "date": 2002-12-15T05:00:00.000Z,
     "home": Object {
       "abbrev": "STL",
+      "color": "003594",
       "conference": "NFC",
       "division": "West",
       "id": "ram",
@@ -355,6 +383,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "SF",
+      "color": "C9243F",
       "conference": "NFC",
       "division": "West",
       "id": "sfo",
@@ -365,6 +394,7 @@ Array [
     "date": 2002-12-21T05:00:00.000Z,
     "home": Object {
       "abbrev": "ARI",
+      "color": "B1063A",
       "conference": "NFC",
       "division": "West",
       "id": "crd",
@@ -380,6 +410,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "ARI",
+      "color": "B1063A",
       "conference": "NFC",
       "division": "West",
       "id": "crd",
@@ -390,6 +421,7 @@ Array [
     "date": 2002-12-29T05:00:00.000Z,
     "home": Object {
       "abbrev": "DEN",
+      "color": "F26522",
       "conference": "AFC",
       "division": "West",
       "id": "den",
@@ -410,6 +442,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "BAL",
+      "color": "2D2D8B",
       "conference": "AFC",
       "division": "North",
       "id": "rav",
@@ -420,6 +453,7 @@ Array [
     "date": 2002-09-08T04:00:00.000Z,
     "home": Object {
       "abbrev": "CAR",
+      "color": "0099D8",
       "conference": "NFC",
       "division": "South",
       "id": "car",
@@ -435,6 +469,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "ARI",
+      "color": "B1063A",
       "conference": "NFC",
       "division": "West",
       "id": "crd",
@@ -445,6 +480,7 @@ Array [
     "date": 2002-09-08T04:00:00.000Z,
     "home": Object {
       "abbrev": "WAS",
+      "color": "681D13",
       "conference": "NFC",
       "division": "East",
       "id": "was",
@@ -460,6 +496,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "TB",
+      "color": "A30C2D",
       "conference": "NFC",
       "division": "South",
       "id": "tam",
@@ -470,6 +507,7 @@ Array [
     "date": 2002-09-15T04:00:00.000Z,
     "home": Object {
       "abbrev": "BAL",
+      "color": "2D2D8B",
       "conference": "AFC",
       "division": "North",
       "id": "rav",
@@ -485,6 +523,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "ARI",
+      "color": "B1063A",
       "conference": "NFC",
       "division": "West",
       "id": "crd",
@@ -495,6 +534,7 @@ Array [
     "date": 2002-09-15T04:00:00.000Z,
     "home": Object {
       "abbrev": "SEA",
+      "color": "002A5C",
       "conference": "NFC",
       "division": "West",
       "id": "sea",
@@ -510,6 +550,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "SD",
+      "color": "0080C6",
       "conference": "AFC",
       "division": "West",
       "id": "sdg",
@@ -520,6 +561,7 @@ Array [
     "date": 2002-09-22T04:00:00.000Z,
     "home": Object {
       "abbrev": "ARI",
+      "color": "B1063A",
       "conference": "NFC",
       "division": "West",
       "id": "crd",
@@ -535,6 +577,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "NYG",
+      "color": "003C7F",
       "conference": "NFC",
       "division": "East",
       "id": "nyg",
@@ -545,6 +588,7 @@ Array [
     "date": 2002-09-29T04:00:00.000Z,
     "home": Object {
       "abbrev": "ARI",
+      "color": "B1063A",
       "conference": "NFC",
       "division": "West",
       "id": "crd",
@@ -560,6 +604,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "DEN",
+      "color": "F26522",
       "conference": "AFC",
       "division": "West",
       "id": "den",
@@ -570,6 +615,7 @@ Array [
     "date": 2002-09-30T04:00:00.000Z,
     "home": Object {
       "abbrev": "BAL",
+      "color": "2D2D8B",
       "conference": "AFC",
       "division": "North",
       "id": "rav",
@@ -585,6 +631,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "ARI",
+      "color": "B1063A",
       "conference": "NFC",
       "division": "West",
       "id": "crd",
@@ -595,6 +642,7 @@ Array [
     "date": 2002-10-06T04:00:00.000Z,
     "home": Object {
       "abbrev": "CAR",
+      "color": "0099D8",
       "conference": "NFC",
       "division": "South",
       "id": "car",
@@ -610,6 +658,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "BAL",
+      "color": "2D2D8B",
       "conference": "AFC",
       "division": "North",
       "id": "rav",
@@ -620,6 +669,7 @@ Array [
     "date": 2002-10-06T04:00:00.000Z,
     "home": Object {
       "abbrev": "CLE",
+      "color": "FF3D00",
       "conference": "AFC",
       "division": "North",
       "id": "cle",
@@ -635,6 +685,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "BAL",
+      "color": "2D2D8B",
       "conference": "AFC",
       "division": "North",
       "id": "rav",
@@ -645,6 +696,7 @@ Array [
     "date": 2002-10-13T04:00:00.000Z,
     "home": Object {
       "abbrev": "IND",
+      "color": "003A70",
       "conference": "AFC",
       "division": "South",
       "id": "clt",
@@ -660,6 +712,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "JAX",
+      "color": "016576",
       "conference": "AFC",
       "division": "South",
       "id": "jax",
@@ -670,6 +723,7 @@ Array [
     "date": 2002-10-20T04:00:00.000Z,
     "home": Object {
       "abbrev": "BAL",
+      "color": "2D2D8B",
       "conference": "AFC",
       "division": "North",
       "id": "rav",
@@ -685,6 +739,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "DAL",
+      "color": "002A5C",
       "conference": "NFC",
       "division": "East",
       "id": "dal",
@@ -695,6 +750,7 @@ Array [
     "date": 2002-10-20T04:00:00.000Z,
     "home": Object {
       "abbrev": "ARI",
+      "color": "B1063A",
       "conference": "NFC",
       "division": "West",
       "id": "crd",
@@ -710,6 +766,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "PIT",
+      "color": "FEC20C",
       "conference": "AFC",
       "division": "North",
       "id": "pit",
@@ -720,6 +777,7 @@ Array [
     "date": 2002-10-27T04:00:00.000Z,
     "home": Object {
       "abbrev": "BAL",
+      "color": "2D2D8B",
       "conference": "AFC",
       "division": "North",
       "id": "rav",
@@ -735,6 +793,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "ARI",
+      "color": "B1063A",
       "conference": "NFC",
       "division": "West",
       "id": "crd",
@@ -745,6 +804,7 @@ Array [
     "date": 2002-10-27T04:00:00.000Z,
     "home": Object {
       "abbrev": "SF",
+      "color": "C9243F",
       "conference": "NFC",
       "division": "West",
       "id": "sfo",
@@ -760,6 +820,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "BAL",
+      "color": "2D2D8B",
       "conference": "AFC",
       "division": "North",
       "id": "rav",
@@ -770,6 +831,7 @@ Array [
     "date": 2002-11-03T05:00:00.000Z,
     "home": Object {
       "abbrev": "ATL",
+      "color": "C9243F",
       "conference": "NFC",
       "division": "South",
       "id": "atl",
@@ -785,6 +847,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "STL",
+      "color": "003594",
       "conference": "NFC",
       "division": "West",
       "id": "ram",
@@ -795,6 +858,7 @@ Array [
     "date": 2002-11-03T05:00:00.000Z,
     "home": Object {
       "abbrev": "ARI",
+      "color": "B1063A",
       "conference": "NFC",
       "division": "West",
       "id": "crd",
@@ -810,6 +874,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "CIN",
+      "color": "F04D23",
       "conference": "AFC",
       "division": "North",
       "id": "cin",
@@ -820,6 +885,7 @@ Array [
     "date": 2002-11-10T05:00:00.000Z,
     "home": Object {
       "abbrev": "BAL",
+      "color": "2D2D8B",
       "conference": "AFC",
       "division": "North",
       "id": "rav",
@@ -835,6 +901,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "SEA",
+      "color": "002A5C",
       "conference": "NFC",
       "division": "West",
       "id": "sea",
@@ -845,6 +912,7 @@ Array [
     "date": 2002-11-10T05:00:00.000Z,
     "home": Object {
       "abbrev": "ARI",
+      "color": "B1063A",
       "conference": "NFC",
       "division": "West",
       "id": "crd",
@@ -860,6 +928,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "ARI",
+      "color": "B1063A",
       "conference": "NFC",
       "division": "West",
       "id": "crd",
@@ -870,6 +939,7 @@ Array [
     "date": 2002-11-17T05:00:00.000Z,
     "home": Object {
       "abbrev": "PHI",
+      "color": "004C54",
       "conference": "NFC",
       "division": "East",
       "id": "phi",
@@ -885,6 +955,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "BAL",
+      "color": "2D2D8B",
       "conference": "AFC",
       "division": "North",
       "id": "rav",
@@ -895,6 +966,7 @@ Array [
     "date": 2002-11-17T05:00:00.000Z,
     "home": Object {
       "abbrev": "MIA",
+      "color": "038E97",
       "conference": "AFC",
       "division": "East",
       "id": "mia",
@@ -910,6 +982,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "TEN",
+      "color": "002A5C",
       "conference": "AFC",
       "division": "South",
       "id": "oti",
@@ -920,6 +993,7 @@ Array [
     "date": 2002-11-24T05:00:00.000Z,
     "home": Object {
       "abbrev": "BAL",
+      "color": "2D2D8B",
       "conference": "AFC",
       "division": "North",
       "id": "rav",
@@ -935,6 +1009,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "OAK",
+      "color": "000000",
       "conference": "AFC",
       "division": "West",
       "id": "rai",
@@ -945,6 +1020,7 @@ Array [
     "date": 2002-11-24T05:00:00.000Z,
     "home": Object {
       "abbrev": "ARI",
+      "color": "B1063A",
       "conference": "NFC",
       "division": "West",
       "id": "crd",
@@ -960,6 +1036,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "ARI",
+      "color": "B1063A",
       "conference": "NFC",
       "division": "West",
       "id": "crd",
@@ -970,6 +1047,7 @@ Array [
     "date": 2002-12-01T05:00:00.000Z,
     "home": Object {
       "abbrev": "KC",
+      "color": "E31837",
       "conference": "AFC",
       "division": "West",
       "id": "kan",
@@ -985,6 +1063,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "BAL",
+      "color": "2D2D8B",
       "conference": "AFC",
       "division": "North",
       "id": "rav",
@@ -995,6 +1074,7 @@ Array [
     "date": 2002-12-01T05:00:00.000Z,
     "home": Object {
       "abbrev": "CIN",
+      "color": "F04D23",
       "conference": "AFC",
       "division": "North",
       "id": "cin",
@@ -1010,6 +1090,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "NO",
+      "color": "9F8958",
       "conference": "NFC",
       "division": "South",
       "id": "nor",
@@ -1020,6 +1101,7 @@ Array [
     "date": 2002-12-08T05:00:00.000Z,
     "home": Object {
       "abbrev": "BAL",
+      "color": "2D2D8B",
       "conference": "AFC",
       "division": "North",
       "id": "rav",
@@ -1035,6 +1117,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "DET",
+      "color": "0076B6",
       "conference": "NFC",
       "division": "North",
       "id": "det",
@@ -1045,6 +1128,7 @@ Array [
     "date": 2002-12-08T05:00:00.000Z,
     "home": Object {
       "abbrev": "ARI",
+      "color": "B1063A",
       "conference": "NFC",
       "division": "West",
       "id": "crd",
@@ -1060,6 +1144,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "BAL",
+      "color": "2D2D8B",
       "conference": "AFC",
       "division": "North",
       "id": "rav",
@@ -1070,6 +1155,7 @@ Array [
     "date": 2002-12-15T05:00:00.000Z,
     "home": Object {
       "abbrev": "HOU",
+      "color": "00143F",
       "conference": "AFC",
       "division": "South",
       "id": "htx",
@@ -1085,6 +1171,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "ARI",
+      "color": "B1063A",
       "conference": "NFC",
       "division": "West",
       "id": "crd",
@@ -1095,6 +1182,7 @@ Array [
     "date": 2002-12-15T05:00:00.000Z,
     "home": Object {
       "abbrev": "STL",
+      "color": "003594",
       "conference": "NFC",
       "division": "West",
       "id": "ram",
@@ -1110,6 +1198,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "SF",
+      "color": "C9243F",
       "conference": "NFC",
       "division": "West",
       "id": "sfo",
@@ -1120,6 +1209,7 @@ Array [
     "date": 2002-12-21T05:00:00.000Z,
     "home": Object {
       "abbrev": "ARI",
+      "color": "B1063A",
       "conference": "NFC",
       "division": "West",
       "id": "crd",
@@ -1135,6 +1225,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "CLE",
+      "color": "FF3D00",
       "conference": "AFC",
       "division": "North",
       "id": "cle",
@@ -1145,6 +1236,7 @@ Array [
     "date": 2002-12-22T05:00:00.000Z,
     "home": Object {
       "abbrev": "BAL",
+      "color": "2D2D8B",
       "conference": "AFC",
       "division": "North",
       "id": "rav",
@@ -1160,6 +1252,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "BAL",
+      "color": "2D2D8B",
       "conference": "AFC",
       "division": "North",
       "id": "rav",
@@ -1170,6 +1263,7 @@ Array [
     "date": 2002-12-29T05:00:00.000Z,
     "home": Object {
       "abbrev": "PIT",
+      "color": "FEC20C",
       "conference": "AFC",
       "division": "North",
       "id": "pit",
@@ -1185,6 +1279,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "ARI",
+      "color": "B1063A",
       "conference": "NFC",
       "division": "West",
       "id": "crd",
@@ -1195,6 +1290,7 @@ Array [
     "date": 2002-12-29T05:00:00.000Z,
     "home": Object {
       "abbrev": "DEN",
+      "color": "F26522",
       "conference": "AFC",
       "division": "West",
       "id": "den",
@@ -1215,6 +1311,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "DEN",
+      "color": "F26522",
       "conference": "AFC",
       "division": "West",
       "id": "den",
@@ -1225,6 +1322,7 @@ Array [
     "date": 2002-09-15T04:00:00.000Z,
     "home": Object {
       "abbrev": "SF",
+      "color": "C9243F",
       "conference": "NFC",
       "division": "West",
       "id": "sfo",
@@ -1240,6 +1338,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "SD",
+      "color": "0080C6",
       "conference": "AFC",
       "division": "West",
       "id": "sdg",
@@ -1250,6 +1349,7 @@ Array [
     "date": 2002-10-06T04:00:00.000Z,
     "home": Object {
       "abbrev": "DEN",
+      "color": "F26522",
       "conference": "AFC",
       "division": "West",
       "id": "den",
@@ -1265,6 +1365,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "STL",
+      "color": "003594",
       "conference": "NFC",
       "division": "West",
       "id": "ram",
@@ -1275,6 +1376,7 @@ Array [
     "date": 2002-10-06T04:00:00.000Z,
     "home": Object {
       "abbrev": "SF",
+      "color": "C9243F",
       "conference": "NFC",
       "division": "West",
       "id": "sfo",
@@ -1290,6 +1392,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "OAK",
+      "color": "000000",
       "conference": "AFC",
       "division": "West",
       "id": "rai",
@@ -1300,6 +1403,7 @@ Array [
     "date": 2002-10-13T04:00:00.000Z,
     "home": Object {
       "abbrev": "STL",
+      "color": "003594",
       "conference": "NFC",
       "division": "West",
       "id": "ram",
@@ -1315,6 +1419,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "DEN",
+      "color": "F26522",
       "conference": "AFC",
       "division": "West",
       "id": "den",
@@ -1325,6 +1430,7 @@ Array [
     "date": 2002-10-20T04:00:00.000Z,
     "home": Object {
       "abbrev": "KC",
+      "color": "E31837",
       "conference": "AFC",
       "division": "West",
       "id": "kan",
@@ -1340,6 +1446,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "SEA",
+      "color": "002A5C",
       "conference": "NFC",
       "division": "West",
       "id": "sea",
@@ -1350,6 +1457,7 @@ Array [
     "date": 2002-10-20T04:00:00.000Z,
     "home": Object {
       "abbrev": "STL",
+      "color": "003594",
       "conference": "NFC",
       "division": "West",
       "id": "ram",
@@ -1365,6 +1473,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "STL",
+      "color": "003594",
       "conference": "NFC",
       "division": "West",
       "id": "ram",
@@ -1375,6 +1484,7 @@ Array [
     "date": 2002-11-03T05:00:00.000Z,
     "home": Object {
       "abbrev": "ARI",
+      "color": "B1063A",
       "conference": "NFC",
       "division": "West",
       "id": "crd",
@@ -1390,6 +1500,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "SD",
+      "color": "0080C6",
       "conference": "AFC",
       "division": "West",
       "id": "sdg",
@@ -1400,6 +1511,7 @@ Array [
     "date": 2002-11-10T05:00:00.000Z,
     "home": Object {
       "abbrev": "STL",
+      "color": "003594",
       "conference": "NFC",
       "division": "West",
       "id": "ram",
@@ -1415,6 +1527,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "OAK",
+      "color": "000000",
       "conference": "AFC",
       "division": "West",
       "id": "rai",
@@ -1425,6 +1538,7 @@ Array [
     "date": 2002-11-11T05:00:00.000Z,
     "home": Object {
       "abbrev": "DEN",
+      "color": "F26522",
       "conference": "AFC",
       "division": "West",
       "id": "den",
@@ -1440,6 +1554,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "DEN",
+      "color": "F26522",
       "conference": "AFC",
       "division": "West",
       "id": "den",
@@ -1450,6 +1565,7 @@ Array [
     "date": 2002-11-17T05:00:00.000Z,
     "home": Object {
       "abbrev": "SEA",
+      "color": "002A5C",
       "conference": "NFC",
       "division": "West",
       "id": "sea",
@@ -1465,6 +1581,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "DEN",
+      "color": "F26522",
       "conference": "AFC",
       "division": "West",
       "id": "den",
@@ -1475,6 +1592,7 @@ Array [
     "date": 2002-12-01T05:00:00.000Z,
     "home": Object {
       "abbrev": "SD",
+      "color": "0080C6",
       "conference": "AFC",
       "division": "West",
       "id": "sdg",
@@ -1490,6 +1608,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "STL",
+      "color": "003594",
       "conference": "NFC",
       "division": "West",
       "id": "ram",
@@ -1500,6 +1619,7 @@ Array [
     "date": 2002-12-08T05:00:00.000Z,
     "home": Object {
       "abbrev": "KC",
+      "color": "E31837",
       "conference": "AFC",
       "division": "West",
       "id": "kan",
@@ -1515,6 +1635,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "KC",
+      "color": "E31837",
       "conference": "AFC",
       "division": "West",
       "id": "kan",
@@ -1525,6 +1646,7 @@ Array [
     "date": 2002-12-15T05:00:00.000Z,
     "home": Object {
       "abbrev": "DEN",
+      "color": "F26522",
       "conference": "AFC",
       "division": "West",
       "id": "den",
@@ -1540,6 +1662,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "ARI",
+      "color": "B1063A",
       "conference": "NFC",
       "division": "West",
       "id": "crd",
@@ -1550,6 +1673,7 @@ Array [
     "date": 2002-12-15T05:00:00.000Z,
     "home": Object {
       "abbrev": "STL",
+      "color": "003594",
       "conference": "NFC",
       "division": "West",
       "id": "ram",
@@ -1565,6 +1689,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "STL",
+      "color": "003594",
       "conference": "NFC",
       "division": "West",
       "id": "ram",
@@ -1575,6 +1700,7 @@ Array [
     "date": 2002-12-22T05:00:00.000Z,
     "home": Object {
       "abbrev": "SEA",
+      "color": "002A5C",
       "conference": "NFC",
       "division": "West",
       "id": "sea",
@@ -1590,6 +1716,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "DEN",
+      "color": "F26522",
       "conference": "AFC",
       "division": "West",
       "id": "den",
@@ -1600,6 +1727,7 @@ Array [
     "date": 2002-12-22T05:00:00.000Z,
     "home": Object {
       "abbrev": "OAK",
+      "color": "000000",
       "conference": "AFC",
       "division": "West",
       "id": "rai",
@@ -1615,6 +1743,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "ARI",
+      "color": "B1063A",
       "conference": "NFC",
       "division": "West",
       "id": "crd",
@@ -1625,6 +1754,7 @@ Array [
     "date": 2002-12-29T05:00:00.000Z,
     "home": Object {
       "abbrev": "DEN",
+      "color": "F26522",
       "conference": "AFC",
       "division": "West",
       "id": "den",
@@ -1640,6 +1770,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "SF",
+      "color": "C9243F",
       "conference": "NFC",
       "division": "West",
       "id": "sfo",
@@ -1650,6 +1781,7 @@ Array [
     "date": 2002-12-30T05:00:00.000Z,
     "home": Object {
       "abbrev": "STL",
+      "color": "003594",
       "conference": "NFC",
       "division": "West",
       "id": "ram",
@@ -1670,6 +1802,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "JAX",
+      "color": "016576",
       "conference": "AFC",
       "division": "South",
       "id": "jax",
@@ -1680,6 +1813,7 @@ Array [
     "date": 2002-09-15T04:00:00.000Z,
     "home": Object {
       "abbrev": "KC",
+      "color": "E31837",
       "conference": "AFC",
       "division": "West",
       "id": "kan",
@@ -1695,6 +1829,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "DEN",
+      "color": "F26522",
       "conference": "AFC",
       "division": "West",
       "id": "den",
@@ -1705,6 +1840,7 @@ Array [
     "date": 2002-10-20T04:00:00.000Z,
     "home": Object {
       "abbrev": "KC",
+      "color": "E31837",
       "conference": "AFC",
       "division": "West",
       "id": "kan",
@@ -1720,6 +1856,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "STL",
+      "color": "003594",
       "conference": "NFC",
       "division": "West",
       "id": "ram",
@@ -1730,6 +1867,7 @@ Array [
     "date": 2002-12-08T05:00:00.000Z,
     "home": Object {
       "abbrev": "KC",
+      "color": "E31837",
       "conference": "AFC",
       "division": "West",
       "id": "kan",
@@ -1745,6 +1883,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "KC",
+      "color": "E31837",
       "conference": "AFC",
       "division": "West",
       "id": "kan",
@@ -1755,6 +1894,7 @@ Array [
     "date": 2002-12-15T05:00:00.000Z,
     "home": Object {
       "abbrev": "DEN",
+      "color": "F26522",
       "conference": "AFC",
       "division": "West",
       "id": "den",
@@ -1775,6 +1915,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "SD",
+      "color": "0080C6",
       "conference": "AFC",
       "division": "West",
       "id": "sdg",
@@ -1785,6 +1926,7 @@ Array [
     "date": 2002-09-08T04:00:00.000Z,
     "home": Object {
       "abbrev": "CIN",
+      "color": "F04D23",
       "conference": "AFC",
       "division": "North",
       "id": "cin",
@@ -1800,6 +1942,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "CIN",
+      "color": "F04D23",
       "conference": "AFC",
       "division": "North",
       "id": "cin",
@@ -1810,6 +1953,7 @@ Array [
     "date": 2002-09-15T04:00:00.000Z,
     "home": Object {
       "abbrev": "CLE",
+      "color": "FF3D00",
       "conference": "AFC",
       "division": "North",
       "id": "cle",
@@ -1825,6 +1969,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "CIN",
+      "color": "F04D23",
       "conference": "AFC",
       "division": "North",
       "id": "cin",
@@ -1835,6 +1980,7 @@ Array [
     "date": 2002-10-06T04:00:00.000Z,
     "home": Object {
       "abbrev": "IND",
+      "color": "003A70",
       "conference": "AFC",
       "division": "South",
       "id": "clt",
@@ -1850,6 +1996,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "PIT",
+      "color": "FEC20C",
       "conference": "AFC",
       "division": "North",
       "id": "pit",
@@ -1860,6 +2007,7 @@ Array [
     "date": 2002-10-13T04:00:00.000Z,
     "home": Object {
       "abbrev": "CIN",
+      "color": "F04D23",
       "conference": "AFC",
       "division": "North",
       "id": "cin",
@@ -1875,6 +2023,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "TEN",
+      "color": "002A5C",
       "conference": "AFC",
       "division": "South",
       "id": "oti",
@@ -1885,6 +2034,7 @@ Array [
     "date": 2002-10-27T04:00:00.000Z,
     "home": Object {
       "abbrev": "CIN",
+      "color": "F04D23",
       "conference": "AFC",
       "division": "North",
       "id": "cin",
@@ -1900,6 +2050,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "CIN",
+      "color": "F04D23",
       "conference": "AFC",
       "division": "North",
       "id": "cin",
@@ -1910,6 +2061,7 @@ Array [
     "date": 2002-11-03T05:00:00.000Z,
     "home": Object {
       "abbrev": "HOU",
+      "color": "00143F",
       "conference": "AFC",
       "division": "South",
       "id": "htx",
@@ -1925,6 +2077,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "CIN",
+      "color": "F04D23",
       "conference": "AFC",
       "division": "North",
       "id": "cin",
@@ -1935,6 +2088,7 @@ Array [
     "date": 2002-11-10T05:00:00.000Z,
     "home": Object {
       "abbrev": "BAL",
+      "color": "2D2D8B",
       "conference": "AFC",
       "division": "North",
       "id": "rav",
@@ -1950,6 +2104,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "CLE",
+      "color": "FF3D00",
       "conference": "AFC",
       "division": "North",
       "id": "cle",
@@ -1960,6 +2115,7 @@ Array [
     "date": 2002-11-17T05:00:00.000Z,
     "home": Object {
       "abbrev": "CIN",
+      "color": "F04D23",
       "conference": "AFC",
       "division": "North",
       "id": "cin",
@@ -1975,6 +2131,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "CIN",
+      "color": "F04D23",
       "conference": "AFC",
       "division": "North",
       "id": "cin",
@@ -1985,6 +2142,7 @@ Array [
     "date": 2002-11-24T05:00:00.000Z,
     "home": Object {
       "abbrev": "PIT",
+      "color": "FEC20C",
       "conference": "AFC",
       "division": "North",
       "id": "pit",
@@ -2000,6 +2158,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "BAL",
+      "color": "2D2D8B",
       "conference": "AFC",
       "division": "North",
       "id": "rav",
@@ -2010,6 +2169,7 @@ Array [
     "date": 2002-12-01T05:00:00.000Z,
     "home": Object {
       "abbrev": "CIN",
+      "color": "F04D23",
       "conference": "AFC",
       "division": "North",
       "id": "cin",
@@ -2025,6 +2185,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "JAX",
+      "color": "016576",
       "conference": "AFC",
       "division": "South",
       "id": "jax",
@@ -2035,6 +2196,7 @@ Array [
     "date": 2002-12-15T05:00:00.000Z,
     "home": Object {
       "abbrev": "CIN",
+      "color": "F04D23",
       "conference": "AFC",
       "division": "North",
       "id": "cin",
@@ -2050,6 +2212,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "CIN",
+      "color": "F04D23",
       "conference": "AFC",
       "division": "North",
       "id": "cin",
@@ -2060,6 +2223,7 @@ Array [
     "date": 2002-12-29T05:00:00.000Z,
     "home": Object {
       "abbrev": "BUF",
+      "color": "005496",
       "conference": "AFC",
       "division": "East",
       "id": "buf",
@@ -2080,6 +2244,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "SD",
+      "color": "0080C6",
       "conference": "AFC",
       "division": "West",
       "id": "sdg",
@@ -2090,6 +2255,7 @@ Array [
     "date": 2002-09-08T04:00:00.000Z,
     "home": Object {
       "abbrev": "CIN",
+      "color": "F04D23",
       "conference": "AFC",
       "division": "North",
       "id": "cin",
@@ -2105,6 +2271,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "NO",
+      "color": "9F8958",
       "conference": "NFC",
       "division": "South",
       "id": "nor",
@@ -2115,6 +2282,7 @@ Array [
     "date": 2002-09-08T04:00:00.000Z,
     "home": Object {
       "abbrev": "TB",
+      "color": "A30C2D",
       "conference": "NFC",
       "division": "South",
       "id": "tam",
@@ -2130,6 +2298,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "CIN",
+      "color": "F04D23",
       "conference": "AFC",
       "division": "North",
       "id": "cin",
@@ -2140,6 +2309,7 @@ Array [
     "date": 2002-09-15T04:00:00.000Z,
     "home": Object {
       "abbrev": "CLE",
+      "color": "FF3D00",
       "conference": "AFC",
       "division": "North",
       "id": "cle",
@@ -2155,6 +2325,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "GB",
+      "color": "294339",
       "conference": "NFC",
       "division": "North",
       "id": "gnb",
@@ -2165,6 +2336,7 @@ Array [
     "date": 2002-09-15T04:00:00.000Z,
     "home": Object {
       "abbrev": "NO",
+      "color": "9F8958",
       "conference": "NFC",
       "division": "South",
       "id": "nor",
@@ -2180,6 +2352,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "NO",
+      "color": "9F8958",
       "conference": "NFC",
       "division": "South",
       "id": "nor",
@@ -2190,6 +2363,7 @@ Array [
     "date": 2002-09-22T04:00:00.000Z,
     "home": Object {
       "abbrev": "CHI",
+      "color": "00143F",
       "conference": "NFC",
       "division": "North",
       "id": "chi",
@@ -2205,6 +2379,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "NO",
+      "color": "9F8958",
       "conference": "NFC",
       "division": "South",
       "id": "nor",
@@ -2215,6 +2390,7 @@ Array [
     "date": 2002-09-29T04:00:00.000Z,
     "home": Object {
       "abbrev": "DET",
+      "color": "0076B6",
       "conference": "NFC",
       "division": "North",
       "id": "det",
@@ -2230,6 +2406,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "CIN",
+      "color": "F04D23",
       "conference": "AFC",
       "division": "North",
       "id": "cin",
@@ -2240,6 +2417,7 @@ Array [
     "date": 2002-10-06T04:00:00.000Z,
     "home": Object {
       "abbrev": "IND",
+      "color": "003A70",
       "conference": "AFC",
       "division": "South",
       "id": "clt",
@@ -2255,6 +2433,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "NO",
+      "color": "9F8958",
       "conference": "NFC",
       "division": "South",
       "id": "nor",
@@ -2265,6 +2444,7 @@ Array [
     "date": 2002-10-13T04:00:00.000Z,
     "home": Object {
       "abbrev": "WAS",
+      "color": "681D13",
       "conference": "NFC",
       "division": "East",
       "id": "was",
@@ -2280,6 +2460,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "PIT",
+      "color": "FEC20C",
       "conference": "AFC",
       "division": "North",
       "id": "pit",
@@ -2290,6 +2471,7 @@ Array [
     "date": 2002-10-13T04:00:00.000Z,
     "home": Object {
       "abbrev": "CIN",
+      "color": "F04D23",
       "conference": "AFC",
       "division": "North",
       "id": "cin",
@@ -2305,6 +2487,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "SF",
+      "color": "C9243F",
       "conference": "NFC",
       "division": "West",
       "id": "sfo",
@@ -2315,6 +2498,7 @@ Array [
     "date": 2002-10-20T04:00:00.000Z,
     "home": Object {
       "abbrev": "NO",
+      "color": "9F8958",
       "conference": "NFC",
       "division": "South",
       "id": "nor",
@@ -2330,6 +2514,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "TEN",
+      "color": "002A5C",
       "conference": "AFC",
       "division": "South",
       "id": "oti",
@@ -2340,6 +2525,7 @@ Array [
     "date": 2002-10-27T04:00:00.000Z,
     "home": Object {
       "abbrev": "CIN",
+      "color": "F04D23",
       "conference": "AFC",
       "division": "North",
       "id": "cin",
@@ -2355,6 +2541,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "ATL",
+      "color": "C9243F",
       "conference": "NFC",
       "division": "South",
       "id": "atl",
@@ -2365,6 +2552,7 @@ Array [
     "date": 2002-10-27T04:00:00.000Z,
     "home": Object {
       "abbrev": "NO",
+      "color": "9F8958",
       "conference": "NFC",
       "division": "South",
       "id": "nor",
@@ -2380,6 +2568,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "CIN",
+      "color": "F04D23",
       "conference": "AFC",
       "division": "North",
       "id": "cin",
@@ -2390,6 +2579,7 @@ Array [
     "date": 2002-11-03T05:00:00.000Z,
     "home": Object {
       "abbrev": "HOU",
+      "color": "00143F",
       "conference": "AFC",
       "division": "South",
       "id": "htx",
@@ -2405,6 +2595,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "NO",
+      "color": "9F8958",
       "conference": "NFC",
       "division": "South",
       "id": "nor",
@@ -2415,6 +2606,7 @@ Array [
     "date": 2002-11-10T05:00:00.000Z,
     "home": Object {
       "abbrev": "CAR",
+      "color": "0099D8",
       "conference": "NFC",
       "division": "South",
       "id": "car",
@@ -2430,6 +2622,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "CIN",
+      "color": "F04D23",
       "conference": "AFC",
       "division": "North",
       "id": "cin",
@@ -2440,6 +2633,7 @@ Array [
     "date": 2002-11-10T05:00:00.000Z,
     "home": Object {
       "abbrev": "BAL",
+      "color": "2D2D8B",
       "conference": "AFC",
       "division": "North",
       "id": "rav",
@@ -2455,6 +2649,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "CLE",
+      "color": "FF3D00",
       "conference": "AFC",
       "division": "North",
       "id": "cle",
@@ -2465,6 +2660,7 @@ Array [
     "date": 2002-11-17T05:00:00.000Z,
     "home": Object {
       "abbrev": "CIN",
+      "color": "F04D23",
       "conference": "AFC",
       "division": "North",
       "id": "cin",
@@ -2480,6 +2676,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "NO",
+      "color": "9F8958",
       "conference": "NFC",
       "division": "South",
       "id": "nor",
@@ -2490,6 +2687,7 @@ Array [
     "date": 2002-11-17T05:00:00.000Z,
     "home": Object {
       "abbrev": "ATL",
+      "color": "C9243F",
       "conference": "NFC",
       "division": "South",
       "id": "atl",
@@ -2505,6 +2703,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "CIN",
+      "color": "F04D23",
       "conference": "AFC",
       "division": "North",
       "id": "cin",
@@ -2515,6 +2714,7 @@ Array [
     "date": 2002-11-24T05:00:00.000Z,
     "home": Object {
       "abbrev": "PIT",
+      "color": "FEC20C",
       "conference": "AFC",
       "division": "North",
       "id": "pit",
@@ -2530,6 +2730,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "BAL",
+      "color": "2D2D8B",
       "conference": "AFC",
       "division": "North",
       "id": "rav",
@@ -2540,6 +2741,7 @@ Array [
     "date": 2002-12-01T05:00:00.000Z,
     "home": Object {
       "abbrev": "CIN",
+      "color": "F04D23",
       "conference": "AFC",
       "division": "North",
       "id": "cin",
@@ -2555,6 +2757,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "TB",
+      "color": "A30C2D",
       "conference": "NFC",
       "division": "South",
       "id": "tam",
@@ -2565,6 +2768,7 @@ Array [
     "date": 2002-12-01T05:00:00.000Z,
     "home": Object {
       "abbrev": "NO",
+      "color": "9F8958",
       "conference": "NFC",
       "division": "South",
       "id": "nor",
@@ -2580,6 +2784,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "JAX",
+      "color": "016576",
       "conference": "AFC",
       "division": "South",
       "id": "jax",
@@ -2590,6 +2795,7 @@ Array [
     "date": 2002-12-15T05:00:00.000Z,
     "home": Object {
       "abbrev": "CIN",
+      "color": "F04D23",
       "conference": "AFC",
       "division": "North",
       "id": "cin",
@@ -2605,6 +2811,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "MIN",
+      "color": "4F2683",
       "conference": "NFC",
       "division": "North",
       "id": "min",
@@ -2615,6 +2822,7 @@ Array [
     "date": 2002-12-15T05:00:00.000Z,
     "home": Object {
       "abbrev": "NO",
+      "color": "9F8958",
       "conference": "NFC",
       "division": "South",
       "id": "nor",
@@ -2630,6 +2838,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "CIN",
+      "color": "F04D23",
       "conference": "AFC",
       "division": "North",
       "id": "cin",
@@ -2640,6 +2849,7 @@ Array [
     "date": 2002-12-29T05:00:00.000Z,
     "home": Object {
       "abbrev": "BUF",
+      "color": "005496",
       "conference": "AFC",
       "division": "East",
       "id": "buf",
@@ -2655,6 +2865,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "CAR",
+      "color": "0099D8",
       "conference": "NFC",
       "division": "South",
       "id": "car",
@@ -2665,6 +2876,7 @@ Array [
     "date": 2002-12-29T05:00:00.000Z,
     "home": Object {
       "abbrev": "NO",
+      "color": "9F8958",
       "conference": "NFC",
       "division": "South",
       "id": "nor",
@@ -2685,6 +2897,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "NE",
+      "color": "002A5C",
       "conference": "AFC",
       "division": "East",
       "id": "nwe",
@@ -2695,6 +2908,7 @@ Array [
     "date": 2002-09-15T04:00:00.000Z,
     "home": Object {
       "abbrev": "NYJ",
+      "color": "145741",
       "conference": "AFC",
       "division": "East",
       "id": "nyj",
@@ -2710,6 +2924,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "NE",
+      "color": "002A5C",
       "conference": "AFC",
       "division": "East",
       "id": "nwe",
@@ -2720,6 +2935,7 @@ Array [
     "date": 2002-10-06T04:00:00.000Z,
     "home": Object {
       "abbrev": "MIA",
+      "color": "038E97",
       "conference": "AFC",
       "division": "East",
       "id": "mia",
@@ -2735,6 +2951,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "NE",
+      "color": "002A5C",
       "conference": "AFC",
       "division": "East",
       "id": "nwe",
@@ -2745,6 +2962,7 @@ Array [
     "date": 2002-11-03T05:00:00.000Z,
     "home": Object {
       "abbrev": "BUF",
+      "color": "005496",
       "conference": "AFC",
       "division": "East",
       "id": "buf",
@@ -2760,6 +2978,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "BUF",
+      "color": "005496",
       "conference": "AFC",
       "division": "East",
       "id": "buf",
@@ -2770,6 +2989,7 @@ Array [
     "date": 2002-12-08T05:00:00.000Z,
     "home": Object {
       "abbrev": "NE",
+      "color": "002A5C",
       "conference": "AFC",
       "division": "East",
       "id": "nwe",
@@ -2785,6 +3005,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "NYJ",
+      "color": "145741",
       "conference": "AFC",
       "division": "East",
       "id": "nyj",
@@ -2795,6 +3016,7 @@ Array [
     "date": 2002-12-22T05:00:00.000Z,
     "home": Object {
       "abbrev": "NE",
+      "color": "002A5C",
       "conference": "AFC",
       "division": "East",
       "id": "nwe",
@@ -2810,6 +3032,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "MIA",
+      "color": "038E97",
       "conference": "AFC",
       "division": "East",
       "id": "mia",
@@ -2820,6 +3043,7 @@ Array [
     "date": 2002-12-29T05:00:00.000Z,
     "home": Object {
       "abbrev": "NE",
+      "color": "002A5C",
       "conference": "AFC",
       "division": "East",
       "id": "nwe",
@@ -2840,6 +3064,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "NE",
+      "color": "002A5C",
       "conference": "AFC",
       "division": "East",
       "id": "nwe",
@@ -2850,6 +3075,7 @@ Array [
     "date": 2002-09-15T04:00:00.000Z,
     "home": Object {
       "abbrev": "NYJ",
+      "color": "145741",
       "conference": "AFC",
       "division": "East",
       "id": "nyj",
@@ -2865,6 +3091,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "ARI",
+      "color": "B1063A",
       "conference": "NFC",
       "division": "West",
       "id": "crd",
@@ -2875,6 +3102,7 @@ Array [
     "date": 2002-09-15T04:00:00.000Z,
     "home": Object {
       "abbrev": "SEA",
+      "color": "002A5C",
       "conference": "NFC",
       "division": "West",
       "id": "sea",
@@ -2890,6 +3118,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "NE",
+      "color": "002A5C",
       "conference": "AFC",
       "division": "East",
       "id": "nwe",
@@ -2900,6 +3129,7 @@ Array [
     "date": 2002-10-06T04:00:00.000Z,
     "home": Object {
       "abbrev": "MIA",
+      "color": "038E97",
       "conference": "AFC",
       "division": "East",
       "id": "mia",
@@ -2915,6 +3145,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "SF",
+      "color": "C9243F",
       "conference": "NFC",
       "division": "West",
       "id": "sfo",
@@ -2925,6 +3156,7 @@ Array [
     "date": 2002-10-14T04:00:00.000Z,
     "home": Object {
       "abbrev": "SEA",
+      "color": "002A5C",
       "conference": "NFC",
       "division": "West",
       "id": "sea",
@@ -2940,6 +3172,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "SEA",
+      "color": "002A5C",
       "conference": "NFC",
       "division": "West",
       "id": "sea",
@@ -2950,6 +3183,7 @@ Array [
     "date": 2002-10-20T04:00:00.000Z,
     "home": Object {
       "abbrev": "STL",
+      "color": "003594",
       "conference": "NFC",
       "division": "West",
       "id": "ram",
@@ -2965,6 +3199,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "NE",
+      "color": "002A5C",
       "conference": "AFC",
       "division": "East",
       "id": "nwe",
@@ -2975,6 +3210,7 @@ Array [
     "date": 2002-11-03T05:00:00.000Z,
     "home": Object {
       "abbrev": "BUF",
+      "color": "005496",
       "conference": "AFC",
       "division": "East",
       "id": "buf",
@@ -2990,6 +3226,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "SEA",
+      "color": "002A5C",
       "conference": "NFC",
       "division": "West",
       "id": "sea",
@@ -3000,6 +3237,7 @@ Array [
     "date": 2002-11-10T05:00:00.000Z,
     "home": Object {
       "abbrev": "ARI",
+      "color": "B1063A",
       "conference": "NFC",
       "division": "West",
       "id": "crd",
@@ -3015,6 +3253,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "SEA",
+      "color": "002A5C",
       "conference": "NFC",
       "division": "West",
       "id": "sea",
@@ -3025,6 +3264,7 @@ Array [
     "date": 2002-12-01T05:00:00.000Z,
     "home": Object {
       "abbrev": "SF",
+      "color": "C9243F",
       "conference": "NFC",
       "division": "West",
       "id": "sfo",
@@ -3040,6 +3280,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "BUF",
+      "color": "005496",
       "conference": "AFC",
       "division": "East",
       "id": "buf",
@@ -3050,6 +3291,7 @@ Array [
     "date": 2002-12-08T05:00:00.000Z,
     "home": Object {
       "abbrev": "NE",
+      "color": "002A5C",
       "conference": "AFC",
       "division": "East",
       "id": "nwe",
@@ -3065,6 +3307,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "STL",
+      "color": "003594",
       "conference": "NFC",
       "division": "West",
       "id": "ram",
@@ -3075,6 +3318,7 @@ Array [
     "date": 2002-12-22T05:00:00.000Z,
     "home": Object {
       "abbrev": "SEA",
+      "color": "002A5C",
       "conference": "NFC",
       "division": "West",
       "id": "sea",
@@ -3090,6 +3334,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "NYJ",
+      "color": "145741",
       "conference": "AFC",
       "division": "East",
       "id": "nyj",
@@ -3100,6 +3345,7 @@ Array [
     "date": 2002-12-22T05:00:00.000Z,
     "home": Object {
       "abbrev": "NE",
+      "color": "002A5C",
       "conference": "AFC",
       "division": "East",
       "id": "nwe",
@@ -3115,6 +3361,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "MIA",
+      "color": "038E97",
       "conference": "AFC",
       "division": "East",
       "id": "mia",
@@ -3125,6 +3372,7 @@ Array [
     "date": 2002-12-29T05:00:00.000Z,
     "home": Object {
       "abbrev": "NE",
+      "color": "002A5C",
       "conference": "AFC",
       "division": "East",
       "id": "nwe",
@@ -3145,6 +3393,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "CAR",
+      "color": "0099D8",
       "conference": "NFC",
       "division": "South",
       "id": "car",
@@ -3155,6 +3404,7 @@ Array [
     "date": 2002-10-20T04:00:00.000Z,
     "home": Object {
       "abbrev": "ATL",
+      "color": "C9243F",
       "conference": "NFC",
       "division": "South",
       "id": "atl",
@@ -3170,6 +3420,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "ATL",
+      "color": "C9243F",
       "conference": "NFC",
       "division": "South",
       "id": "atl",
@@ -3180,6 +3431,7 @@ Array [
     "date": 2002-11-24T05:00:00.000Z,
     "home": Object {
       "abbrev": "CAR",
+      "color": "0099D8",
       "conference": "NFC",
       "division": "South",
       "id": "car",
@@ -3200,6 +3452,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "CAR",
+      "color": "0099D8",
       "conference": "NFC",
       "division": "South",
       "id": "car",
@@ -3210,6 +3463,7 @@ Array [
     "date": 2002-10-20T04:00:00.000Z,
     "home": Object {
       "abbrev": "ATL",
+      "color": "C9243F",
       "conference": "NFC",
       "division": "South",
       "id": "atl",
@@ -3225,6 +3479,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "ATL",
+      "color": "C9243F",
       "conference": "NFC",
       "division": "South",
       "id": "atl",
@@ -3235,6 +3490,7 @@ Array [
     "date": 2002-11-10T05:00:00.000Z,
     "home": Object {
       "abbrev": "PIT",
+      "color": "FEC20C",
       "conference": "AFC",
       "division": "North",
       "id": "pit",
@@ -3250,6 +3506,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "ATL",
+      "color": "C9243F",
       "conference": "NFC",
       "division": "South",
       "id": "atl",
@@ -3260,6 +3517,7 @@ Array [
     "date": 2002-11-24T05:00:00.000Z,
     "home": Object {
       "abbrev": "CAR",
+      "color": "0099D8",
       "conference": "NFC",
       "division": "South",
       "id": "car",
@@ -3275,6 +3533,7 @@ Array [
   Object {
     "away": Object {
       "abbrev": "CAR",
+      "color": "0099D8",
       "conference": "NFC",
       "division": "South",
       "id": "car",
@@ -3285,6 +3544,7 @@ Array [
     "date": 2002-12-15T05:00:00.000Z,
     "home": Object {
       "abbrev": "PIT",
+      "color": "FEC20C",
       "conference": "AFC",
       "division": "North",
       "id": "pit",
