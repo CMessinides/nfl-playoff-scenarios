@@ -38,16 +38,17 @@
   <title>Sapper project template</title>
 </svelte:head>
 
-<h1>Great success!</h1>
+<h1>Great tiles!</h1>
 
 <figure>
   <img
-    alt="Tiles"
+    alt="So cool"
     src="https://images.unsplash.com/photo-1506016698427-b72a4aa49fcf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1621&q=80" />
   <figcaption>Have fun with Sapper!</figcaption>
 </figure>
 
 <p>
+  <em>This is pretty fast!</em>
   <strong>
     Try editing this file (src/routes/index.svelte) to test live reloading.
   </strong>
