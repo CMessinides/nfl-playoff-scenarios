@@ -19,7 +19,7 @@ class WinProbCalculator:
 
 
 home_advantages = {}
-with open("public/data/ratings/home-adv.csv", newline="") as home_adv_file:
+with open("static/data/ratings/home-adv.csv", newline="") as home_adv_file:
     home_adv_reader = csv.DictReader(home_adv_file)
     for row in home_adv_reader:
         home_advantages[int(row["year"])] = float(row["homeAdv"])
@@ -28,7 +28,7 @@ print(home_advantages)
 
 for year in range(2002, 2020):
     ratings = {}
-    with open("public/data/ratings/" + str(year) + ".csv", newline="") as ratingsfile:
+    with open("static/data/ratings/" + str(year) + ".csv", newline="") as ratingsfile:
         ratingsreader = csv.DictReader(ratingsfile)
         for row in ratingsreader:
             ratings[row["id"]] = float(row["rating"])
@@ -36,9 +36,9 @@ for year in range(2002, 2020):
     calculator = WinProbCalculator(ratings, home_advantages[year])
 
     with open(
-        "public/data/games/" + str(year) + ".csv", "r", newline=""
+        "static/data/games/" + str(year) + ".csv", "r", newline=""
     ) as input, open(
-        "public/data/games/" + str(year) + "_updated.csv", "w", newline=""
+        "static/data/games/" + str(year) + "_updated.csv", "w", newline=""
     ) as output:
         game_reader = csv.reader(input)
         game_writer = csv.writer(output)

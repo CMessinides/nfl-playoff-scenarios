@@ -1,4 +1,4 @@
-import { loadDataset } from "../testHelpers"
+import { loadDataset } from "../../testHelpers"
 import { ScheduleFilters } from "./schedules"
 
 const [TEAMS, SCHEDULE] = loadDataset(2002)

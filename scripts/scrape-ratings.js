@@ -53,13 +53,13 @@ async function scrape() {
 
   let homeAdvData = pages.map(pick(["year", "homeAdv"]))
   writeFile(
-    "public/data/ratings/home-adv.csv",
+    "static/data/ratings/home-adv.csv",
     csvFormat(homeAdvData, ["year", "homeAdv"])
   )
 
   for (const page of pages) {
     writeFile(
-      `public/data/ratings/${page.year}.csv`,
+      `static/data/ratings/${page.year}.csv`,
       csvFormat(page.ratings, ["id", "rating"])
     )
   }

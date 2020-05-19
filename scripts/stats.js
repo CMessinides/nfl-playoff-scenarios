@@ -7,10 +7,10 @@ const readFile = promisify(_readFile)
 const DIVIDER = "-".repeat(Math.min(80, process.stdout.columns))
 
 ;(async function () {
-  const filenames = readdirSync("public/data/games")
+  const filenames = readdirSync("static/data/games")
 
   const files = await Promise.all(
-    filenames.map((filename) => readFile("public/data/games/" + filename))
+    filenames.map((filename) => readFile("static/data/games/" + filename))
   )
 
   const games = []
