@@ -1,5 +1,3 @@
-import identity from "lodash/identity"
-import sample from "lodash/sample"
 import curry from "lodash/curry"
 
 /** @enum {string} */
@@ -13,16 +11,13 @@ export const Result = {
  * @param {Game} game
  * @returns {Game}
  */
-export const Game = (game = {}) => identity(game)
+export const Game = (game = {}) => game
 
 /** @type {(game: Game) => boolean} */
 export const isUndecided = (game) => game.result === undefined
 
 /** @type {(result: Result, game: Game) => Game} */
 export const decideWith = (result, game) => ({ ...game, result })
-
-/** @type {(game: Game) => Game} */
-export const decideRandom = (game) => decideWith(sample(Result), game)
 
 /** @type {(game: Game) => Game} */
 export const simulate = (game) => {

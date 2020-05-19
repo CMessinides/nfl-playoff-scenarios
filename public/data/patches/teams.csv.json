@@ -4,7 +4,8 @@
     "team": "ram",
     "data": {
       "location": "Los Angeles",
-      "abbrev": "LA"
+      "abbrev": "LA",
+      "color": "003594"
     }
   },
   {

@@ -1,9 +1,9 @@
-import { identity } from "lodash"
+export const ALL_TEAMS = "All Teams"
 
 /** @enum {string} */
 export const Conference = {
   AFC: "AFC",
-  NFC: "NFC"
+  NFC: "NFC",
 }
 
 /** @enum {string} */
@@ -11,14 +11,14 @@ export const Division = {
   EAST: "East",
   NORTH: "North",
   SOUTH: "South",
-  WEST: "West"
+  WEST: "West",
 }
 
 /**
  * @param {Team} team
  * @returns {Team}
  */
-export const Team = (team = {}) => identity(team)
+export const Team = (team = {}) => team
 
 /**
  * @typedef {object} Team
