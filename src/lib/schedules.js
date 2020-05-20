@@ -1,9 +1,11 @@
 import uniq from "lodash/uniq"
 import intersection from "lodash/intersection"
+import range from "lodash/range"
 import { didParticipate, getOpponent } from "./games"
 
 export const MIN_YEAR = 2002
 export const MAX_YEAR = 2019
+export const ALL_YEARS = range(MIN_YEAR, MAX_YEAR + 1)
 
 /**
  * @param {Partial<Schedule>} schedule
