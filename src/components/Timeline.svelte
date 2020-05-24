@@ -93,10 +93,11 @@
   }
 
   function handleDragMove(e) {
+    console.log("move", { e, isDragging })
     if (isDragging) {
-      translate.update(t =>
-        clamp(-sliderWidth - 120, t + (e.clientX - lastPointerX), 120)
-      )
+      let delta = e.clientX - lastPointerX
+
+      translate.update(t => clamp(-sliderWidth - 120, t + delta, 120))
       lastPointerX = e.clientX
     }
   }
@@ -204,6 +205,7 @@
 
   .label {
     font-size: 10px;
+    user-select: none;
   }
 
   .cursor,
@@ -222,8 +224,10 @@
 </style>
 
 <svelte:window
-  on:pointermove|preventDefault={handleDragMove}
-  on:pointerup|preventDefault={handleDragEnd} />
+  on:mousemove={handleDragMove}
+  on:mouseup={handleDragEnd}
+  on:touchmove={e => handleDragMove(e.touches[0])}
+  on:touchend={handleDragEnd} />
 
 <div class="wrapper" bind:clientWidth={width}>
   <h2>
@@ -264,7 +268,8 @@
       class:is-dragging={isDragging}
       transform="translate({$translate + width / 2}
       {marginTop})"
-      on:pointerdown={handleDragStart}>
+      on:mousedown|preventDefault={handleDragStart}
+      on:touchstart|passive={e => handleDragStart(e.touches[0])}>
       <rect
         x="0"
         y="0"
