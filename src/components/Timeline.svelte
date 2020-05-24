@@ -1,21 +1,22 @@
 <script>
+  import { fade } from "svelte/transition"
   import { tweened, spring } from "svelte/motion"
   import { cubicOut } from "svelte/easing"
   import { MIN_WEEK, MAX_WEEK, ALL_WEEKS } from "../lib/games.js"
   import ChevronLeft from "./icons/ChevronLeft.js"
   import ChevronRight from "./icons/ChevronRight.js"
 
-  export let week = MAX_WEEK
+  export let currentWeek = MAX_WEEK
 
   function decrement() {
-    if (week > MIN_WEEK) {
-      week = week - 1
+    if (currentWeek > MIN_WEEK) {
+      currentWeek = currentWeek - 1
     }
   }
 
   function increment() {
-    if (week < MAX_WEEK) {
-      week = week + 1
+    if (currentWeek < MAX_WEEK) {
+      currentWeek = currentWeek + 1
     }
   }
 
@@ -43,7 +44,7 @@
 
   // Sync the slider position with the current week
   $: {
-    translate.set((week - 1) * -sliderInterval)
+    translate.set((currentWeek - 1) * -sliderInterval)
   }
 
   const height = marginTop + sliderHeight
@@ -114,7 +115,7 @@
         translate.set(closestTick * -sliderInterval)
       }
 
-      week = closestWeek
+      currentWeek = closestWeek
     }
   }
 </script>
@@ -130,26 +131,48 @@
     padding: 8px 32px;
   }
 
+  h2 {
+    font-weight: 300;
+    font-size: var(--step-2);
+  }
+
+  h2 strong {
+    font-weight: 700;
+    color: red;
+  }
+
   .toggles {
     display: flex;
     align-items: center;
-  }
-
-  .toggles .week {
-    display: block;
-    padding-left: 16px;
+    justify-content: space-between;
   }
 
   .toggles button {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    padding: 4px;
+    padding: 4px 8px;
     color: inherit;
     background: none;
-    border: none;
+    border: 1px #eee solid;
     border-radius: 4px;
     transition: 120ms background-color linear;
+    cursor: pointer;
+    display: flex;
+    font-size: 0.875rem;
+    align-items: center;
+    line-height: 1;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.025em;
+  }
+
+  .toggles button:first-child {
+    padding-right: 16px;
+  }
+
+  .toggles button:last-child {
+    padding-left: 16px;
   }
 
   .toggles button:disabled {
@@ -165,9 +188,22 @@
     display: block;
   }
 
-  .slider {
+  .timeline {
     display: block;
     max-width: 100%;
+    margin-top: 8px;
+  }
+
+  .slider {
+    cursor: grab;
+  }
+
+  .slider.is-dragging {
+    cursor: grabbing;
+  }
+
+  .label {
+    font-size: 10px;
   }
 
   .cursor,
@@ -190,25 +226,29 @@
   on:pointerup|preventDefault={handleDragEnd} />
 
 <div class="wrapper" bind:clientWidth={width}>
-  <h2>Rewind the Tape</h2>
+  <h2>
+    Rewind the Tape to
+    <strong>Week {currentWeek}</strong>
+  </h2>
   <div class="toggles">
     <button
       type="button"
       on:click={decrement}
-      disabled={week === MIN_WEEK}
-      aria-label="Back 1 week">
+      disabled={currentWeek === MIN_WEEK}
+      aria-label="Previous week">
       {@html ChevronLeft()}
+      Previous
     </button>
     <button
       type="button"
       on:click={increment}
-      disabled={week === MAX_WEEK}
-      aria-label="Forward 1 week">
+      disabled={currentWeek === MAX_WEEK}
+      aria-label="Next week">
+      Next
       {@html ChevronRight()}
     </button>
-    <span class="week">Week {week}</span>
   </div>
-  <svg class="slider" {height} {width}>
+  <svg class="timeline" {height} {width}>
     <defs>
       <linearGradient id="fade-to-white-left">
         <stop offset="10%" stop-color="white" />
@@ -220,6 +260,8 @@
       </linearGradient>
     </defs>
     <g
+      class="slider"
+      class:is-dragging={isDragging}
       transform="translate({$translate + width / 2}
       {marginTop})"
       on:pointerdown={handleDragStart}>
@@ -231,6 +273,18 @@
         fill-opacity="0" />
       {#each ALL_WEEKS as week}
         <g transform="translate({(week - 1) * sliderInterval} 0)">
+          {#if week !== currentWeek}
+            <text
+              class="label"
+              x="0"
+              y="-4"
+              text-anchor="middle"
+              fill="gray"
+              stroke-width="0"
+              transition:fade={{ duration: 300 }}>
+              {week}
+            </text>
+          {/if}
           <line
             x1="0"
             x2="0"

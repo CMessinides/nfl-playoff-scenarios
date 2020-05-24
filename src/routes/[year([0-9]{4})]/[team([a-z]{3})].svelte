@@ -19,7 +19,7 @@
   export let team
   export let schedule
 
-  let week
+  let currentWeek
 </script>
 
 <style>
@@ -57,7 +57,7 @@
     <h1>Can the {team.location} {team.name} make the playoffs?</h1>
   </header>
   <section class="games">
-    <Timeline bind:week />
+    <Timeline bind:currentWeek />
     <div class="game-strip" />
   </section>
 </div>
