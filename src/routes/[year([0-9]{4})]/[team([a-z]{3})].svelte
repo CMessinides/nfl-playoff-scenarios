@@ -14,25 +14,50 @@
 </script>
 
 <script>
+  import Timeline from "../../components/Timeline.svelte"
+
   export let team
   export let schedule
+
+  let week
 </script>
 
-<header>
-  <h1>{team.location} {team.name}</h1>
-  <a href="/{schedule.year}" rel="prefetch">Back to {schedule.year}</a>
-</header>
-<h2>Games</h2>
-<ul>
-  {#each schedule.games as game}
-    <li>
-      <h3>
-        {game.away.location} {game.away.name}
-        <code>{game.awayPts}</code>
-        @ {game.home.location} {game.home.name}
-        <code>{game.homePts}</code>
-      </h3>
-      <p>{game.date}</p>
-    </li>
-  {/each}
-</ul>
+<style>
+  .layout {
+    --inner-column-count: 8;
+    --inner-area-max-width: 96rem;
+    --outer-column-width: 50vw - var(--inner-area-max-width) / 2;
+    display: grid;
+    grid-template-columns:
+      calc(var(--outer-column-width))
+      repeat(var(--inner-column-count), 1fr)
+      calc(var(--outer-column-width));
+    padding: 4rem 0;
+    background-color: #eee;
+  }
+
+  .layout > * {
+    grid-column: 2 / -2;
+    background-color: white;
+  }
+
+  header {
+    padding: 4rem 32px 2rem;
+  }
+
+  h1 {
+    font-size: var(--step-4);
+    line-height: calc(2ex + 4px);
+    font-weight: 300;
+  }
+</style>
+
+<div class="layout">
+  <header>
+    <h1>Can the {team.location} {team.name} make the playoffs?</h1>
+  </header>
+  <section class="games">
+    <Timeline bind:week />
+    <div class="game-strip" />
+  </section>
+</div>

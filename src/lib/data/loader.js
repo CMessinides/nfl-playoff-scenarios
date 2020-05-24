@@ -77,7 +77,14 @@ async function loadSchedule(year, fetch) {
 
   let schedule = {
     year,
-    games: rows.map((row) => ({ ...row, date: new Date(row.date) })),
+    games: rows.map((row) => ({
+      ...row,
+      date: new Date(row.date),
+      week: parseInt(row.week),
+      homePts: parseInt(row.homePts),
+      awayPts: parseInt(row.awayPts),
+      homeWinProb: parseFloat(row.homeWinProb),
+    })),
   }
 
   cache.schedules.set(year, schedule)
