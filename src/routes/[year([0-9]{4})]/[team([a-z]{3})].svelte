@@ -15,11 +15,12 @@
 
 <script>
   import Timeline from "../../components/Timeline.svelte"
+  import { createWeekStore } from "../../stores/week.js"
 
   export let team
   export let schedule
 
-  let currentWeek
+  let week = createWeekStore()
 </script>
 
 <style>
@@ -57,7 +58,7 @@
     <h1>Can the {team.location} {team.name} make the playoffs?</h1>
   </header>
   <section class="games">
-    <Timeline bind:currentWeek />
+    <Timeline {week} />
     <div class="game-strip" />
   </section>
 </div>
